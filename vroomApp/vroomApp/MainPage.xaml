@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="vroomApp.MainPage">
+    <Grid>
+        <Image
+                Source="slika1.jpg"
+                Aspect="AspectFill"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+        <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="Center" Padding="40">
+
+            <Button Text="PRIJAVA"
+                    FontFamily="LeagueSpartanBold"
+                    FontSize="Medium"
+                    Clicked="OnLoginButtonClicked"
+                    CornerRadius="30"
+                    WidthRequest="300"
+                    HeightRequest="50"
+                    BackgroundColor="#052D61"
+                    TextColor="#EEF7FF"/>
+            <Button Text="REGISTRACIJA"
+                    FontFamily="LeagueSpartanBold"
+                    FontSize="Medium"
+                    Clicked="OnRegisterButtonClicked"
+                    Margin="10"
+                    CornerRadius="30"
+                    WidthRequest="300"
+                    HeightRequest="50"
+                    BackgroundColor="#EEF7FF"
+                    TextColor="#052D61"/>
+            
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
