@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\W10\\source\\repos\\vroomApp\\vroomApp\\vroomApp.csproj": {}
+    "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\vroomApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\W10\\source\\repos\\vroomApp\\vroomApp\\vroomApp.csproj": {
+    "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\vroomApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\W10\\source\\repos\\vroomApp\\vroomApp\\vroomApp.csproj",
+        "projectUniqueName": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\vroomApp.csproj",
         "projectName": "vroomApp",
-        "projectPath": "C:\\Users\\W10\\source\\repos\\vroomApp\\vroomApp\\vroomApp.csproj",
+        "projectPath": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\vroomApp.csproj",
         "packagesPath": "C:\\Users\\W10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\W10\\source\\repos\\vroomApp\\vroomApp\\obj\\",
+        "outputPath": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -83,6 +83,10 @@
               "target": "Package",
               "version": "[8.0.6, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
@@ -126,6 +130,10 @@
               "target": "Package",
               "version": "[8.0.6, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
@@ -169,6 +177,10 @@
               "target": "Package",
               "version": "[8.0.6, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
@@ -207,6 +219,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.40, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
