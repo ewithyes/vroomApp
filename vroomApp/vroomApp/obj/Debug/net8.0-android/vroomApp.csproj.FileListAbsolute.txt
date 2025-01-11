@@ -2101,3 +2101,4 @@ C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-androi
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\assets\SQLitePCLRaw.core.dll
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\assets\SQLitePCLRaw.lib.e_sqlite3.android.dll
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\resizetizer\r\drawable\slika2.png

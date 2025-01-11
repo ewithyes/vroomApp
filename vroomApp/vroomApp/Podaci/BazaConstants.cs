@@ -1,21 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO;
-using Microsoft.Maui.Storage;
+﻿using System.IO;
 
-namespace vroomApp.Podaci
+namespace vroomApp.Podaci;
+
+public static class Constants
 {
-    public static class BazaConstants
-    {
-        public const string DatabaseFilename = "VroomSQLite.db3";
+    public const string DatabaseFilename = "VroomAppSQLite.db3";
 
- 
-
-        public static string DatabasePath => Path.Combine(FileSystem.AppDataDirectory, DatabaseFilename);
-        
-           
-    }
+    public static string DatabasePath =>
+        Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), DatabaseFilename);
 }
+

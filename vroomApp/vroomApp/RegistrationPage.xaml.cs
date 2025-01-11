@@ -5,14 +5,16 @@ namespace vroomApp;
 public partial class RegistrationPage : ContentPage
 {
     private readonly BazaService _bazaService = new BazaService();
-	public RegistrationPage()
-	{
-		InitializeComponent();
-	}
+
+    public RegistrationPage()
+    {
+        InitializeComponent();
+    }
+
     private async void OnRegisterClicked(object sender, EventArgs e)
     {
-        var username = UsernameEntry.Text;
-        var password = PasswordEntry.Text;
+        string username = UsernameEntry.Text;
+        string password = PasswordEntry.Text;
 
         if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
         {
@@ -20,16 +22,21 @@ public partial class RegistrationPage : ContentPage
             return;
         }
 
+        var user = new User { Username = username, Password = password };
+
         try
         {
-            var user = new User { Username = username, Password = password };
             await _bazaService.RegisterUserAsync(user);
             await DisplayAlert("Success", "Registration successful!", "OK");
-            await Navigation.PopModalAsync(); // Dismiss the modal and return to MainPage
+            await Navigation.PopModalAsync(); // Return to LoginPage
         }
-        catch (Exception ex)
+        catch (Exception)
         {
             await DisplayAlert("Error", "User already exists.", "OK");
         }
+    }
+    private async void OnLoginClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushModalAsync(new LoginPage());
     }
 }

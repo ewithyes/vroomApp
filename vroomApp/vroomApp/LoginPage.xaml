@@ -3,9 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="vroomApp.LoginPage"
              Title="LoginPage">
-    <StackLayout Padding="30" Spacing="20">
-        <Entry x:Name="UsernameEntry" Placeholder="Username" />
-        <Entry x:Name="PasswordEntry" Placeholder="Password" IsPassword="True" />
-        <Button Text="Login" Clicked="OnLoginClicked" />
-    </StackLayout>
+    <Grid>
+       
+        <Image
+              Source="slika2.png"
+              Aspect="AspectFill"
+              SemanticProperties.Description="dot net bot in a race car number eight" />
+        <StackLayout VerticalOptions="StartAndExpand" Padding="30" Margin="0,30,0,0" Spacing="20">
+        <Label 
+              Text="PRIJAVA" FontFamily="LeagueSpartanBold" FontSize="30" TextColor="#052D61" HorizontalOptions="Center"></Label>
+            <Entry x:Name="UsernameEntry" Placeholder="Korisničko ime" />
+            <Entry x:Name="PasswordEntry" Placeholder="Lozinka" IsPassword="True" />
+            <Button Text="Prijavi se" FontFamily="LeagueSpartanRegular" FontSize="Medium" Clicked="OnLoginClicked" CornerRadius="30" BackgroundColor="#052D61" />
+        </StackLayout>
+        <StackLayout VerticalOptions="EndAndExpand" Padding="30" Spacing="10">
+            <Label
+             Text="Nemate račun?" FontFamily="LeagueSpartanRegular" FontSize="Medium" TextColor="#052D61" HorizontalOptions="Center"></Label>
+            <Button Text="Registracija" FontFamily="LeagueSpartanRegular" FontSize="Medium" TextColor="#052D61" Clicked="OnRegisterClicked" CornerRadius="30" BackgroundColor="#EEF7FF" />
+        </StackLayout>
+    </Grid>
 </ContentPage>
