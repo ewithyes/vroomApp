@@ -19,7 +19,7 @@
         <StackLayout VerticalOptions="EndAndExpand" Padding="30" Spacing="10">
             <Label
              Text="Nemate račun?" FontFamily="LeagueSpartanRegular" FontSize="Medium" TextColor="#052D61" HorizontalOptions="Center"></Label>
-            <Button Text="Registracija" FontFamily="LeagueSpartanRegular" FontSize="Medium" TextColor="#052D61" Clicked="OnRegisterClicked" CornerRadius="30" BackgroundColor="#EEF7FF" />
+            <Button Text="REGISTRACIJA" FontFamily="LeagueSpartanRegular" FontAttributes="Bold"  FontSize="Medium" TextColor="#052D61" Clicked="OnRegisterClicked" CornerRadius="30" BackgroundColor="#EEF7FF" />
         </StackLayout>
     </Grid>
 </ContentPage>

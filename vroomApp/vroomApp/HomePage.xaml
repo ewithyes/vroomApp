@@ -1,10 +1,14 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="vroomApp.HomePage"
-             Title="Main Content">
-    
-    <StackLayout Padding="20" Spacing="15">
-        <!-- Main Content -->
-        <Label Text="Welcome." FontSize="24" HorizontalOptions="Center" />
-    </StackLayout>
+             Title="Main Content"
+             BackgroundColor="#CFE9FF">
+
+    <Frame Padding="20" BackgroundColor="#EEF7FF" VerticalOptions="Start" CornerRadius="0" HeightRequest="65" BorderColor="#eef7ff">
+        <FlexLayout Direction="Row" JustifyContent="SpaceBetween" AlignItems="Center">
+            <Label Text="VROOM" FontFamily="LeagueSpartanBold" FontSize="Medium" TextColor="#052D61" FontAttributes="Bold"/>
+            <Image Source="profil.png"></Image>
+        </FlexLayout>
+    </Frame>
+
 </ContentPage>

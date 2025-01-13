@@ -34,7 +34,7 @@
         <StackLayout VerticalOptions="EndAndExpand" Padding="30" Spacing="10">
             <Label
                 Text="Već imate račun?" FontFamily="LeagueSpartanRegular" FontSize="Medium" TextColor="#052D61" HorizontalOptions="Center"></Label>
-            <Button Text="Prijavi se" FontFamily="LeagueSpartanRegular" FontSize="Medium" TextColor="#052D61" Clicked="OnLoginClicked" CornerRadius="30" BackgroundColor="#EEF7FF" />
+            <Button Text="PRIJAVA" FontFamily="LeagueSpartanRegular" FontSize="Medium" FontAttributes="Bold" TextColor="#052D61" Clicked="OnLoginClicked" CornerRadius="30" BackgroundColor="#EEF7FF" />
         </StackLayout>
     </Grid>
 </ContentPage>

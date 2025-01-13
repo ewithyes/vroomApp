@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|c:\\users\\w10\\documents\\github\\vroomapp\\vroomapp\\vroomapp\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|solutionrelative:vroomapp\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|c:\\users\\w10\\documents\\github\\vroomapp\\vroomapp\\vroomapp\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|solutionrelative:vroomapp\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|c:\\users\\w10\\documents\\github\\vroomapp\\vroomapp\\vroomapp\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|solutionrelative:vroomapp\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|c:\\users\\w10\\documents\\github\\vroomapp\\vroomapp\\vroomapp\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|c:\\users\\w10\\documents\\github\\vroomapp\\vroomapp\\vroomapp\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|solutionrelative:vroomapp\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|c:\\users\\w10\\documents\\github\\vroomapp\\vroomapp\\vroomapp\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|solutionrelative:vroomapp\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|c:\\users\\w10\\documents\\github\\vroomapp\\vroomapp\\vroomapp\\podaci\\bazaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|c:\\users\\w10\\documents\\github\\vroomapp\\vroomapp\\vroomapp\\podaci\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|solutionrelative:vroomapp\\podaci\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|c:\\users\\w10\\documents\\github\\vroomapp\\vroomapp\\vroomapp\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|solutionrelative:vroomapp\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|c:\\users\\w10\\documents\\github\\vroomapp\\vroomapp\\vroomapp\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|solutionrelative:vroomapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|c:\\users\\w10\\documents\\github\\vroomapp\\vroomapp\\vroomapp\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|solutionrelative:vroomapp\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|c:\\users\\w10\\documents\\github\\vroomapp\\vroomapp\\vroomapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{17B28D68-21BC-427E-9BF6-32ADE967B324}|vroomApp\\vroomApp.csproj|solutionrelative:vroomapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,46 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\HomePage.xaml.cs",
-              "RelativeDocumentMoniker": "vroomApp\\HomePage.xaml.cs",
-              "ToolTip": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\HomePage.xaml.cs",
-              "RelativeToolTip": "vroomApp\\HomePage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T12:17:42.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "HomePage.xaml",
               "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\HomePage.xaml",
               "RelativeDocumentMoniker": "vroomApp\\HomePage.xaml",
-              "ToolTip": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\HomePage.xaml",
-              "RelativeToolTip": "vroomApp\\HomePage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABKAAAA",
+              "ToolTip": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\HomePage.xaml*",
+              "RelativeToolTip": "vroomApp\\HomePage.xaml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-10T12:16:11.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "vroomApp\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\LoginPage.xaml.cs",
-              "RelativeToolTip": "vroomApp\\LoginPage.xaml.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAACUAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T10:44:50.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "BazaConstants.cs",
               "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\Podaci\\BazaConstants.cs",
               "RelativeDocumentMoniker": "vroomApp\\Podaci\\BazaConstants.cs",
@@ -150,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BazaService.cs",
               "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\Podaci\\BazaService.cs",
               "RelativeDocumentMoniker": "vroomApp\\Podaci\\BazaService.cs",
@@ -163,46 +137,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\Podaci\\User.cs",
               "RelativeDocumentMoniker": "vroomApp\\Podaci\\User.cs",
               "ToolTip": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\Podaci\\User.cs",
               "RelativeToolTip": "vroomApp\\Podaci\\User.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAvAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T11:53:44.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "RegistrationPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\RegistrationPage.xaml.cs",
               "RelativeDocumentMoniker": "vroomApp\\RegistrationPage.xaml.cs",
-              "ToolTip": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\RegistrationPage.xaml.cs*",
-              "RelativeToolTip": "vroomApp\\RegistrationPage.xaml.cs*",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAACUAAAATAAAA",
+              "ToolTip": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\RegistrationPage.xaml.cs",
+              "RelativeToolTip": "vroomApp\\RegistrationPage.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAIBJwCUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T16:57:19.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RegistrationPage.xaml",
               "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\RegistrationPage.xaml",
               "RelativeDocumentMoniker": "vroomApp\\RegistrationPage.xaml",
               "ToolTip": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\RegistrationPage.xaml",
               "RelativeToolTip": "vroomApp\\RegistrationPage.xaml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwCQAAABsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-09T16:50:53.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Profil.xaml",
               "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\Profil.xaml",
               "RelativeDocumentMoniker": "vroomApp\\Profil.xaml",
@@ -215,20 +189,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Profil.xaml.cs",
               "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\Profil.xaml.cs",
               "RelativeDocumentMoniker": "vroomApp\\Profil.xaml.cs",
               "ToolTip": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\Profil.xaml.cs",
               "RelativeToolTip": "vroomApp\\Profil.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T19:03:49.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "vroomApp\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\LoginPage.xaml",
+              "RelativeToolTip": "vroomApp\\LoginPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-09T16:49:41.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "vroomApp\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\LoginPage.xaml.cs",
+              "RelativeToolTip": "vroomApp\\LoginPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T10:44:50.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "vroomApp\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\HomePage.xaml.cs",
+              "RelativeToolTip": "vroomApp\\HomePage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:17:42.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "vroomApp\\App.xaml.cs",
@@ -241,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\App.xaml",
               "RelativeDocumentMoniker": "vroomApp\\App.xaml",
@@ -254,21 +267,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "vroomApp\\LoginPage.xaml",
-              "ToolTip": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\LoginPage.xaml",
-              "RelativeToolTip": "vroomApp\\LoginPage.xaml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-09T16:49:41.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "vroomApp",
+              "Title": "vroomApp.csproj",
               "DocumentMoniker": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\vroomApp.csproj",
               "RelativeDocumentMoniker": "vroomApp\\vroomApp.csproj",
               "ToolTip": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\vroomApp.csproj",
@@ -286,7 +286,7 @@
               "RelativeDocumentMoniker": "vroomApp\\MainPage.xaml",
               "ToolTip": "C:\\Users\\W10\\Documents\\GitHub\\vroomApp\\vroomApp\\vroomApp\\MainPage.xaml",
               "RelativeToolTip": "vroomApp\\MainPage.xaml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAlAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-09T15:06:35.953Z",
               "EditorCaption": ""
@@ -301,8 +301,7 @@
               "RelativeToolTip": "vroomApp\\MainPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T15:32:26.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T15:32:26.697Z"
             }
           ]
         }
