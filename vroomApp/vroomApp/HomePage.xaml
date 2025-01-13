@@ -3,12 +3,63 @@
              x:Class="vroomApp.HomePage"
              Title="Main Content"
              BackgroundColor="#CFE9FF">
-
-    <Frame Padding="20" BackgroundColor="#EEF7FF" VerticalOptions="Start" CornerRadius="0" HeightRequest="65" BorderColor="#eef7ff">
-        <FlexLayout Direction="Row" JustifyContent="SpaceBetween" AlignItems="Center">
-            <Label Text="VROOM" FontFamily="LeagueSpartanBold" FontSize="Medium" TextColor="#052D61" FontAttributes="Bold"/>
-            <Image Source="profil.png"></Image>
+<Grid>
+    <Frame Padding="20" BackgroundColor="#EEF7FF" VerticalOptions="Start" CornerRadius="0" HeightRequest="70" BorderColor="#eef7ff">
+        <FlexLayout Direction="Row" JustifyContent="SpaceBetween" AlignItems="Center" HeightRequest="70">
+                <Label Text="VROOM" FontFamily="LeagueSpartanBold" FontSize="Large" TextColor="#052D61" FontAttributes="Bold">
+                    <View.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnVroomTapped" />
+                    </View.GestureRecognizers>
+                </Label>
+                <Image Source="profil.png" HeightRequest="60">
+                    <View.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnProfilTapped" />
+                    </View.GestureRecognizers>
+                </Image>
         </FlexLayout>
     </Frame>
-
+        <ScrollView Margin="0,80,0,0">
+            <StackLayout Padding="20" Spacing="10">
+                <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True" Padding="15" BorderColor="#eef7ff" HeightRequest="80">
+                    <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
+                        <Image Source="motor.jpg" HeightRequest="70"/>
+                        <Label Text="A KATEGORIJA  " FontSize="Medium" TextColor="#052D61" FontFamily="LeagueSpartanRegular" VerticalOptions="Center" />
+                    </FlexLayout>
+                </Frame>
+                <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True" Padding="15" BorderColor="#eef7ff" HeightRequest="80">
+                    <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
+                        <Image Source="auto.jpg" HeightRequest="60"/>
+                        <Label Text="B KATEGORIJA  " FontSize="Medium" TextColor="#052D61" FontFamily="LeagueSpartanRegular" VerticalOptions="Center" />
+                        <View.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnKategorijaTapped"/>
+                        </View.GestureRecognizers>
+                    </FlexLayout>
+                </Frame>
+                <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True" Padding="15" BorderColor="#eef7ff" HeightRequest="80">
+                    <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
+                        <Image Source="kamion.jpg" HeightRequest="70"/>
+                        <Label Text="C KATEGORIJA  " FontSize="Medium" TextColor="#052D61" FontFamily="LeagueSpartanRegular" VerticalOptions="Center" />
+                    </FlexLayout>
+                </Frame>
+                <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True" Padding="15" BorderColor="#eef7ff" HeightRequest="80">
+                    <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
+                        <Image Source="bus.jpg" HeightRequest="50"/>
+                        <Label Text="D KATEGORIJA  " FontSize="Medium" TextColor="#052D61" FontFamily="LeagueSpartanRegular" VerticalOptions="Center" />
+                    </FlexLayout>
+                </Frame>
+                <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True" Padding="15" BorderColor="#eef7ff" HeightRequest="80">
+                    <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
+                        <Image Source="traktortom.jpg" HeightRequest="60"/>
+                        <Label Text="T KATEGORIJA  " FontSize="Medium" TextColor="#052D61" FontFamily="LeagueSpartanRegular" VerticalOptions="Center" />
+                    </FlexLayout>
+                </Frame>
+                <Frame BackgroundColor="#3972A4" CornerRadius="10" HasShadow="True" Padding="15" BorderColor="#3972A4" HeightRequest="80">
+                    <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
+                        <Image Source="prvapomoc.png" HeightRequest="60"/>
+                        <Label Text="PRVA POMOĆ  " FontSize="Medium" TextColor="white" FontFamily="LeagueSpartanRegular" VerticalOptions="Center" />
+                    </FlexLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
 </ContentPage>

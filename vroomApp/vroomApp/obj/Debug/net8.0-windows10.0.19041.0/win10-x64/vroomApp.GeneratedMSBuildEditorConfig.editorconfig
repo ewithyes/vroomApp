@@ -30,6 +30,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = HomePage.xaml
 
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/KategorijaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.KategorijaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = KategorijaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = KategorijaPage.xaml
+
 [C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.LoginPage.xaml
@@ -47,6 +53,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.Profil.xaml
 build_metadata.AdditionalFiles.TargetPath = Profil.xaml
 build_metadata.AdditionalFiles.RelativePath = Profil.xaml
+
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/ProfilPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.ProfilPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ProfilPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ProfilPage.xaml
 
 [C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/RegistrationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="vroomApp.KategorijaPage"
+             Title="KategorijaPage"
+             BackgroundColor="#CFE9FF">
+    <Grid>
+        <Frame Padding="20" BackgroundColor="#EEF7FF" VerticalOptions="Start" CornerRadius="0" HeightRequest="70" BorderColor="#eef7ff">
+            <FlexLayout Direction="Row" JustifyContent="SpaceBetween" AlignItems="Center" HeightRequest="70">
+                <Label Text="VROOM" FontFamily="LeagueSpartanBold" FontSize="Large" TextColor="#052D61" FontAttributes="Bold">
+                    <View.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnVroomTapped" />
+                    </View.GestureRecognizers>
+                </Label>
+                <Image Source="profil.png" HeightRequest="60">
+                    <View.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnProfilTapped" />
+                    </View.GestureRecognizers>
+                </Image>
+            </FlexLayout>
+        </Frame>
+        <ScrollView Margin="0,50,0,0">
+            <StackLayout Padding="20" Spacing="10">
+                <Frame BackgroundColor="#CFE9FF" CornerRadius="10" HasShadow="False" Padding="0" BorderColor="#cfe9ff" HeightRequest="110">
+                    <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
+                        <Image Source="auto.jpg" HeightRequest="90"/>
+                        <Label Text="B KATEGORIJA " FontSize="Title" TextColor="#052D61" FontFamily="LeagueSpartanBold" />
+                    </FlexLayout>
+                </Frame>
+                <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True" Padding="15" BorderColor="#eef7ff" HeightRequest="80">
+                    <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
+                        <Image Source="test.jpg" HeightRequest="50"/>
+                        <Label Text="TEORIJA" FontSize="Medium" TextColor="#052D61" FontFamily="LeagueSpartanRegular" VerticalOptions="Center" />
+                        <View.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnTeorijaTapped"/>
+                        </View.GestureRecognizers>
+                    </FlexLayout>
+                </Frame>
+                <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True" Padding="15" BorderColor="#eef7ff" HeightRequest="80">
+                    <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
+                        <Image Source="stop.jpg" HeightRequest="50"/>
+                        <Label Text="ZNAKOVI" FontSize="Medium" TextColor="#052D61" FontFamily="LeagueSpartanRegular" VerticalOptions="Center" />
+                        <View.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnZnakoviTapped"/>
+                        </View.GestureRecognizers>
+                    </FlexLayout>
+                </Frame>
+                <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True" Padding="15" BorderColor="#eef7ff" HeightRequest="80">
+                    <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
+                        <Image Source="raskrsnica.png" HeightRequest="60" WidthRequest="50"/>
+                        <Label Text="RASKRSNICE" FontSize="Medium" TextColor="#052D61" FontFamily="LeagueSpartanRegular" VerticalOptions="Center" />
+                        <View.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnRaskrsniceTapped"/>
+                        </View.GestureRecognizers>
+                    </FlexLayout>
+                </Frame>
+                <Frame BackgroundColor="#A3CDF1" CornerRadius="10" HasShadow="True" Padding="15" Margin="0,25,0,0" BorderColor="#A3CDF1" HeightRequest="80">
+                    <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
+                        <Image Source="vozacka.png" HeightRequest="60" WidthRequest="50"/>
+                        <Label Text="ISPIT" FontSize="Medium" TextColor="#052D61" FontFamily="LeagueSpartanBold" VerticalOptions="Center" />
+                        <View.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnIspitTapped"/>
+                        </View.GestureRecognizers>
+                    </FlexLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

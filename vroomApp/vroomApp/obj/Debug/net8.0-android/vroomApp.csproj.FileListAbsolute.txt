@@ -1557,7 +1557,6 @@ C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-androi
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
-C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\typemaps.armeabi-v7a.ll
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\AndroidManifest.xml
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\AndroidManifest.xml
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
@@ -1567,7 +1566,6 @@ C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-androi
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\static.flag
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\__environment__.txt
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\buildid.txt
-C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\environment.armeabi-v7a.ll
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\src\androidx\annotation\experimental\R.java
@@ -2065,13 +2063,6 @@ C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-androi
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\bin\packaged_resources
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\src\com\companyname\vroomapp\R.java
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\_CompileJava.FileList.txt
-C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\compressed_assemblies.armeabi-v7a.ll
-C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\typemaps.armeabi-v7a.o
-C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\environment.armeabi-v7a.o
-C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\compressed_assemblies.armeabi-v7a.o
-C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\marshal_methods.armeabi-v7a.o
-C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\jni_remap.armeabi-v7a.o
-C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\bin\classes.dex
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\bin\classes2.dex
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -2113,3 +2104,12 @@ C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-androi
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\resizetizer\r\drawable\test.png
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\resizetizer\r\drawable\traktortom.png
 C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\resizetizer\r\drawable\vozacka.png
+C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
+C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\environment.x86_64.ll
+C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
+C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\typemaps.x86_64.o
+C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\environment.x86_64.o
+C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
+C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
+C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
+C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
