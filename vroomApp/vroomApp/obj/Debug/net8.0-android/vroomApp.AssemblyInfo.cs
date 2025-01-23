@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vroomApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e846e3abae43d5f3e010eb2ed1d46f286def37b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+650cc3f7f9870158555b4b999388c33aa2a7a471")]
 [assembly: System.Reflection.AssemblyProductAttribute("vroomApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vroomApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

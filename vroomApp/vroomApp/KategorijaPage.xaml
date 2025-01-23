@@ -23,8 +23,8 @@
             <StackLayout Padding="20" Spacing="10">
                 <Frame BackgroundColor="#CFE9FF" CornerRadius="10" HasShadow="False" Padding="0" BorderColor="#cfe9ff" HeightRequest="110">
                     <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
-                        <Image Source="auto.jpg" HeightRequest="90"/>
-                        <Label Text="B KATEGORIJA " FontSize="Title" TextColor="#052D61" FontFamily="LeagueSpartanBold" />
+                        <Image Source="{Binding Slika}" HeightRequest="90"/>
+                        <Label Text="{Binding Naziv}" FontSize="Title" TextColor="#052D61" FontFamily="LeagueSpartanBold" />
                     </FlexLayout>
                 </Frame>
                 <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True" Padding="15" BorderColor="#eef7ff" HeightRequest="80">

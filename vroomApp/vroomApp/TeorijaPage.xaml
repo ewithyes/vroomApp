@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="vroomApp.HomePage"
-             Title="Main Content"
+             x:Class="vroomApp.TeorijaPage"
+             Title="TeorijaPage"             
              BackgroundColor="#CFE9FF">
-<Grid>
-    <Frame Padding="20" BackgroundColor="#EEF7FF" VerticalOptions="Start" CornerRadius="0" HeightRequest="70" BorderColor="#eef7ff">
-        <FlexLayout Direction="Row" JustifyContent="SpaceBetween" AlignItems="Center" HeightRequest="70">
+    <Grid>
+        <Frame Padding="20" BackgroundColor="#EEF7FF" VerticalOptions="Start" CornerRadius="0" HeightRequest="70" BorderColor="#eef7ff">
+            <FlexLayout Direction="Row" JustifyContent="SpaceBetween" AlignItems="Center" HeightRequest="70">
                 <Label Text="VROOM" FontFamily="LeagueSpartanBold" FontSize="Large" TextColor="#052D61" FontAttributes="Bold">
                     <View.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnVroomTapped" />
@@ -16,31 +17,25 @@
                         <TapGestureRecognizer Tapped="OnProfilTapped" />
                     </View.GestureRecognizers>
                 </Image>
-        </FlexLayout>
-    </Frame>
+            </FlexLayout>
+        </Frame>
         <ScrollView Margin="0,80,0,0">
-            <StackLayout Padding="20" Spacing="10">
-                <CollectionView ItemsSource="{Binding Kategorije}" SelectionMode="Single" SelectedItem="{Binding odabranaKategorija}">
+            <StackLayout Padding="10, 20">
+                <CollectionView ItemsSource="{Binding Testovi}" SelectionMode="Single">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
                             <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True" Padding="15" Margin="5" BorderColor="#eef7ff" HeightRequest="80">
                                 <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
-                                    <Image Source="{Binding Slika}" HeightRequest="70"/>
+                                    <Image Source="test.jpg" HeightRequest="50"/>
                                     <Label Text="{Binding Naziv}" FontSize="Medium" TextColor="#052D61" FontFamily="LeagueSpartanRegular" VerticalOptions="Center" />
                                     <View.GestureRecognizers>
-                                        <TapGestureRecognizer Tapped="OnKategorijaTapped" CommandParameter="{Binding}"/>
+                                        <TapGestureRecognizer Tapped="OnTestTapped" CommandParameter="{Binding}"/>
                                     </View.GestureRecognizers>
                                 </FlexLayout>
                             </Frame>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
-                <Frame BackgroundColor="#3972A4" CornerRadius="10" HasShadow="True" Padding="15" Margin="5" BorderColor="#3972A4" HeightRequest="80">
-                    <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
-                        <Image Source="prvapomoc.png" HeightRequest="60"/>
-                        <Label Text="PRVA POMOĆ  " FontSize="Medium" TextColor="white" FontFamily="LeagueSpartanRegular" VerticalOptions="Center" />
-                    </FlexLayout>
-                </Frame>
             </StackLayout>
         </ScrollView>
     </Grid>
