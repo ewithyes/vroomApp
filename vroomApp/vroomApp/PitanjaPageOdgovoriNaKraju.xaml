@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="vroomApp.PitanjaPageOdgovoriNaKraju"
+             Title="PitanjaPageOdgovoriNaKraju"
+             BackgroundColor="#CFE9FF">
+    <Grid>
+        <Frame Padding="20" BackgroundColor="#EEF7FF" VerticalOptions="Start" CornerRadius="0" HeightRequest="70" BorderColor="#eef7ff">
+            <FlexLayout Direction="Row" JustifyContent="SpaceBetween" AlignItems="Center" HeightRequest="70">
+                <Label Text="VROOM" FontFamily="LeagueSpartanBold" FontSize="Large" TextColor="#052D61" FontAttributes="Bold">
+                    <View.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnVroomTapped" />
+                    </View.GestureRecognizers>
+                </Label>
+                <Image Source="profil.png" HeightRequest="60">
+                    <View.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnProfilTapped" />
+                    </View.GestureRecognizers>
+                </Image>
+            </FlexLayout>
+        </Frame>
+        <ScrollView Margin="0,80,0,0">
+            <StackLayout>
+                <StackLayout x:Name="QuestionsLayout" Padding="10" />
+                <Button Text="ZAVRŠI KVIZ" Clicked="OnFinishQuizClicked" BackgroundColor="#052d61" CornerRadius="25" FontFamily="LeagueSpartanBold" FontSize="Medium" WidthRequest="200" />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

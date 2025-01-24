@@ -27,6 +27,7 @@
                         <Label Text="{Binding Naziv}" FontSize="Title" TextColor="#052D61" FontFamily="LeagueSpartanBold" />
                     </FlexLayout>
                 </Frame>
+                <Label Text="{Binding Opis}" TextColor="#052d61" FontFamily="LeagueSpartanRegular" FontSize="Body" Margin="0,-25,0,15"></Label>
                 <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True" Padding="15" BorderColor="#eef7ff" HeightRequest="80">
                     <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
                         <Image Source="test.jpg" HeightRequest="50"/>

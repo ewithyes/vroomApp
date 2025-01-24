@@ -39,6 +39,9 @@
                     <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
                         <Image Source="prvapomoc.png" HeightRequest="60"/>
                         <Label Text="PRVA POMOĆ  " FontSize="Medium" TextColor="white" FontFamily="LeagueSpartanRegular" VerticalOptions="Center" />
+                        <View.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnPrvaPomocTapped"/>
+                        </View.GestureRecognizers>
                     </FlexLayout>
                 </Frame>
             </StackLayout>

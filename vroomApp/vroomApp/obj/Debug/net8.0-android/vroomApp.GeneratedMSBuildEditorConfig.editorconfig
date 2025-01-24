@@ -58,11 +58,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.ModePage.xaml
 build_metadata.AdditionalFiles.TargetPath = ModePage.xaml
 build_metadata.AdditionalFiles.RelativePath = ModePage.xaml
 
-[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/PitanjaPage.xaml]
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/PitanjaPageOdgovoriNaKraju.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.PitanjaPage.xaml
-build_metadata.AdditionalFiles.TargetPath = PitanjaPage.xaml
-build_metadata.AdditionalFiles.RelativePath = PitanjaPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.PitanjaPageOdgovoriNaKraju.xaml
+build_metadata.AdditionalFiles.TargetPath = PitanjaPageOdgovoriNaKraju.xaml
+build_metadata.AdditionalFiles.RelativePath = PitanjaPageOdgovoriNaKraju.xaml
+
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/PitanjaPageOdgovoriOdmah.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.PitanjaPageOdgovoriOdmah.xaml
+build_metadata.AdditionalFiles.TargetPath = PitanjaPageOdgovoriOdmah.xaml
+build_metadata.AdditionalFiles.RelativePath = PitanjaPageOdgovoriOdmah.xaml
 
 [C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/Profil.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -75,6 +81,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.ProfilPage.xaml
 build_metadata.AdditionalFiles.TargetPath = ProfilPage.xaml
 build_metadata.AdditionalFiles.RelativePath = ProfilPage.xaml
+
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/PrvaPomocPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.PrvaPomocPage.xaml
+build_metadata.AdditionalFiles.TargetPath = PrvaPomocPage.xaml
+build_metadata.AdditionalFiles.RelativePath = PrvaPomocPage.xaml
 
 [C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/RegistrationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

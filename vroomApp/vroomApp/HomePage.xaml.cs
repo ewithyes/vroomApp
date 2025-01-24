@@ -31,4 +31,8 @@ public partial class HomePage : ContentPage
     {
         await Navigation.PushModalAsync(new HomePage());
     }
+    private async void OnPrvaPomocTapped(object sender, EventArgs e)
+    {
+        await Navigation.PushModalAsync(new PrvaPomocPage());
+    }
 }

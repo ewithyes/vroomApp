@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="vroomApp.PitanjaPageOdgovoriOdmah"
+             Title="PitanjaPageOdgovoriOdmah"
+             BackgroundColor="#CFE9FF">
+    <Grid>
+        <Frame Padding="20" BackgroundColor="#EEF7FF" VerticalOptions="Start" CornerRadius="0" HeightRequest="70" BorderColor="#eef7ff">
+            <FlexLayout Direction="Row" JustifyContent="SpaceBetween" AlignItems="Center" HeightRequest="70">
+                <Label Text="VROOM" FontFamily="LeagueSpartanBold" FontSize="Large" TextColor="#052D61" FontAttributes="Bold">
+                    <View.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnVroomTapped" />
+                    </View.GestureRecognizers>
+                </Label>
+                <Image Source="profil.png" HeightRequest="60">
+                    <View.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnProfilTapped" />
+                    </View.GestureRecognizers>
+                </Image>
+            </FlexLayout>
+        </Frame>
+        <ScrollView  Margin="0,80,0,0">
+            <StackLayout Padding="20" Spacing="15">
+                <Label x:Name="QuestionLabel" FontSize="Large" FontFamily="LeagueSpartanBold" TextColor="#052d61"/>
+                <Button x:Name="OptionAButton" Clicked="OnOptionClicked" BackgroundColor="#052d61" CornerRadius="25" FontFamily="LeagueSpartanRegular" FontSize="Medium"/>
+                <Button x:Name="OptionBButton" Clicked="OnOptionClicked"  BackgroundColor="#052d61" CornerRadius="25" FontFamily="LeagueSpartanRegular" FontSize="Medium" />
+                <Button x:Name="OptionCButton" Clicked="OnOptionClicked"  BackgroundColor="#052d61" CornerRadius="25" FontFamily="LeagueSpartanRegular" FontSize="Medium" />
+                <Button x:Name="OptionDButton" Clicked="OnOptionClicked"  BackgroundColor="#052d61" CornerRadius="25" FontFamily="LeagueSpartanRegular" FontSize="Medium" />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

@@ -20,16 +20,16 @@
             </FlexLayout>
         </Frame>
         <ScrollView Margin="0,80,0,0">
-            <StackLayout Padding="10, 20">
+            <StackLayout Padding="20" Spacing="10">
                 <CollectionView ItemsSource="{Binding Testovi}" SelectionMode="Single">
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True" Padding="15" Margin="5" BorderColor="#eef7ff" HeightRequest="80">
-                                <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
-                                    <Image Source="test.jpg" HeightRequest="50"/>
-                                    <Label Text="{Binding Naziv}" FontSize="Medium" TextColor="#052D61" FontFamily="LeagueSpartanRegular" VerticalOptions="Center" />
-                                    <View.GestureRecognizers>
-                                        <TapGestureRecognizer Tapped="OnTestTapped" CommandParameter="{Binding}"/>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True" Padding="15" Margin="5" BorderColor="#eef7ff" HeightRequest="80">
+                            <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" >
+                                <Image Source="test.jpg" HeightRequest="50"/>
+                                <Label Text="{Binding Name}" FontSize="Medium" TextColor="#052D61" FontFamily="LeagueSpartanRegular" VerticalOptions="Center" />
+                                <View.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnTestTapped" BindingContext="{Binding .}"/>
                                     </View.GestureRecognizers>
                                 </FlexLayout>
                             </Frame>

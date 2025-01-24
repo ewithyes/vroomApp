@@ -1,9 +1,7 @@
 using System.Collections.ObjectModel;
 
 namespace vroomApp;
-public class Test {
-    public string Naziv { get; set; }
-}
+using vroomApp.Podaci;
 public class TeorijaPageViewModel
 {
     public ObservableCollection<Test> Testovi { get; set; }
@@ -11,11 +9,11 @@ public class TeorijaPageViewModel
         {
             Testovi = new ObservableCollection<Test>
             {
-                new Test { Naziv = "TEST 1" },
-                new Test { Naziv = "TEST 2" },
-                new Test { Naziv = "TEST 3" },
-                new Test { Naziv = "TEST 4" },
-                new Test { Naziv = "TEST 5" }
+                new Test { Name = "TEST 1", TestId=1 },
+                new Test { Name = "TEST 2", TestId=2 },
+                new Test { Name = "TEST 3", TestId=3 },
+                new Test { Name = "TEST 4", TestId=4 },
+                new Test { Name = "TEST 5", TestId=5 }
             };
         }
 }
@@ -25,7 +23,7 @@ public class TeorijaPageViewModel
     public TeorijaPage(Kategorije odabranaKategorija)
     {
         InitializeComponent();
-        BindingContext = new TeorijaPageViewModel(odabranaKategorija);
+        BindingContext = new TeorijaPageViewModel(odabranaKategorija);    
     }
     private async void OnTestTapped(object sender, EventArgs e)
     {

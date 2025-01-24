@@ -12,36 +12,102 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = vroomApp
-build_property.ProjectDir = C:\Users\W10\source\repos\vroomApp\vroomApp\
+build_property.ProjectDir = C:\Users\W10\Documents\GitHub\vroomApp\vroomApp\vroomApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/W10/source/repos/vroomApp/vroomApp/App.xaml]
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/W10/source/repos/vroomApp/vroomApp/AppShell.xaml]
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/W10/source/repos/vroomApp/vroomApp/MainPage.xaml]
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = HomePage.xaml
+
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/KategorijaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.KategorijaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = KategorijaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = KategorijaPage.xaml
+
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/W10/source/repos/vroomApp/vroomApp/Resources/Styles/Colors.xaml]
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/ModePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.ModePage.xaml
+build_metadata.AdditionalFiles.TargetPath = ModePage.xaml
+build_metadata.AdditionalFiles.RelativePath = ModePage.xaml
+
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/PitanjaPageOdgovoriNaKraju.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.PitanjaPageOdgovoriNaKraju.xaml
+build_metadata.AdditionalFiles.TargetPath = PitanjaPageOdgovoriNaKraju.xaml
+build_metadata.AdditionalFiles.RelativePath = PitanjaPageOdgovoriNaKraju.xaml
+
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/PitanjaPageOdgovoriOdmah.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.PitanjaPageOdgovoriOdmah.xaml
+build_metadata.AdditionalFiles.TargetPath = PitanjaPageOdgovoriOdmah.xaml
+build_metadata.AdditionalFiles.RelativePath = PitanjaPageOdgovoriOdmah.xaml
+
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/Profil.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.Profil.xaml
+build_metadata.AdditionalFiles.TargetPath = Profil.xaml
+build_metadata.AdditionalFiles.RelativePath = Profil.xaml
+
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/ProfilPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.ProfilPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ProfilPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ProfilPage.xaml
+
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/PrvaPomocPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.PrvaPomocPage.xaml
+build_metadata.AdditionalFiles.TargetPath = PrvaPomocPage.xaml
+build_metadata.AdditionalFiles.RelativePath = PrvaPomocPage.xaml
+
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/RegistrationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.RegistrationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = RegistrationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = RegistrationPage.xaml
+
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/W10/source/repos/vroomApp/vroomApp/Resources/Styles/Styles.xaml]
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/W10/Documents/GitHub/vroomApp/vroomApp/vroomApp/TeorijaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = vroomApp.TeorijaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TeorijaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TeorijaPage.xaml

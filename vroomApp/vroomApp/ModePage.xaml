@@ -20,9 +20,13 @@
             </FlexLayout>
         </Frame>
         <StackLayout Margin="0,80,0,0" Padding="20">
-            <Label Text="Odaberite kako želite vidjeti rezultate:"></Label>
-            <Button Text="Odmah" Command="{Binding RezultatiOdmahCommand}"></Button>
-            <Button Text="Nakon testa" Command="{Binding RezultatiNakonTestaCommand}"></Button>
+            <Label Text="ODABIR NAČINA RADA TESTA" Margin="0,-10,0,10" FontFamily="LeagueSpartanBold" FontSize="Large" HorizontalOptions="Center" TextColor="#052d61"></Label>
+            <StackLayout Padding="20" Margin="10" BackgroundColor="#eef7ff">
+                <Button Text="UČENJE" FontFamily="LeagueSpartanBold" FontSize="Medium" TextColor="white" BackgroundColor="#052d61" CornerRadius="25" Clicked="OnUcenjeClicked"></Button>
+                <Label Text="Pitanja dolaze jedno po jedno (sekvencijalno), tačnost odgovora prikazuje se nakon svakog pitanja. " TextColor="#052d61" FontFamily="LeagueSpartanRegular" FontSize="Body"></Label>
+                <Button Margin="0,25,0,0" Text="PROVJERA ZNANJA" FontFamily="LeagueSpartanBold" FontSize="Medium" TextColor="white" BackgroundColor="#052d61" CornerRadius="25"  Clicked="OnProvjeraClicked"></Button>
+                <Label Margin="0,0,0,10" Text="Sva pitanja dolaze odjednom, redoslijed odgovaranja po želji, tačnost odgovora prikazuje se na kraju testa. " TextColor="#052d61" FontFamily="LeagueSpartanRegular" FontSize="Body"></Label>
+            </StackLayout>
         </StackLayout>
     </Grid>
 </ContentPage>

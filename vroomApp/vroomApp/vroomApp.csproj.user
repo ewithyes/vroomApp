@@ -28,13 +28,19 @@
     <MauiXaml Update="ModePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="PitanjaPage.xaml">
+    <MauiXaml Update="PitanjaPageOdgovoriNaKraju.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="PitanjaPageOdgovoriOdmah.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Profil.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="ProfilPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="PrvaPomocPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="RegistrationPage.xaml">
