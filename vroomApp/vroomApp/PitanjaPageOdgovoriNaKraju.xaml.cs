@@ -16,29 +16,61 @@ public partial class PitanjaPageOdgovoriNaKraju : ContentPage
     {
         foreach (var question in questions)
         {
-            var questionStack = new StackLayout { Padding = 10 };
+            // Create a container for each question
+            var questionStack = new StackLayout
+            {
+                Padding = new Thickness(20),
+                Spacing = 10,
+                Margin = new Thickness(0, 10, 0, 10)
+            };
 
+            // Add the question text
             var questionLabel = new Label
             {
                 Text = question.Text,
-                FontSize = 24,
-                Margin = new Thickness(0, 10, 0, 10)
+                FontSize = 20,
+                FontFamily = "LeagueSpartanBold",
+                TextColor = Color.FromArgb("#052d61"),
+                HorizontalOptions = LayoutOptions.Start
             };
             questionStack.Children.Add(questionLabel);
 
+            // Add RadioButtons for each option
+            var optionsGroup = new StackLayout
+            {
+                Spacing = 5
+            };
+
             foreach (var option in new[] { question.OptionA, question.OptionB, question.OptionC, question.OptionD })
             {
-                var button = new Button { Text = option };
-                button.Clicked += (sender, args) =>
+                var radioButton = new RadioButton
                 {
-                    userAnswers[question.Id] = (sender as Button).Text;
+                    Content = option,
+                    FontSize = 18,
+                    FontFamily = "LeagueSpartanRegular",
+                    TextColor = Color.FromArgb("#052d61"),
+                    GroupName = $"Question_{question.Id}" // Unique group for each question
                 };
-                questionStack.Children.Add(button);
+
+                // Attach event to capture the selected answer
+                radioButton.CheckedChanged += (sender, e) =>
+                {
+                    if (e.Value) // When selected
+                    {
+                        userAnswers[question.Id] = option;
+                    }
+                };
+
+                optionsGroup.Children.Add(radioButton);
             }
 
+            questionStack.Children.Add(optionsGroup);
+
+            // Add the question container to the main layout
             QuestionsLayout.Children.Add(questionStack);
         }
     }
+
 
     private void OnFinishQuizClicked(object sender, EventArgs e)
     {

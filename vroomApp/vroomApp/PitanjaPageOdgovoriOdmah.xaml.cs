@@ -1,9 +1,13 @@
 ﻿namespace vroomApp;
+
+using Microsoft.Maui;
 using vroomApp.Podaci;
-public partial class PitanjaPageOdgovoriOdmah: ContentPage
+
+public partial class PitanjaPageOdgovoriOdmah : ContentPage
 {
     private int currentQuestionIndex = 0;
     private List<Question> questions;
+    private string selectedAnswer;
 
     public PitanjaPageOdgovoriOdmah(List<Question> questions)
     {
@@ -18,10 +22,19 @@ public partial class PitanjaPageOdgovoriOdmah: ContentPage
         {
             var question = questions[currentQuestionIndex];
             QuestionLabel.Text = question.Text;
-            OptionAButton.Text = question.OptionA;
-            OptionBButton.Text = question.OptionB;
-            OptionCButton.Text = question.OptionC;
-            OptionDButton.Text = question.OptionD;
+
+            // Assign options to radio buttons
+            OptionARadioButton.Content = question.OptionA;
+            OptionBRadioButton.Content = question.OptionB;
+            OptionCRadioButton.Content = question.OptionC;
+            OptionDRadioButton.Content = question.OptionD;
+
+            // Reset selection
+            OptionARadioButton.IsChecked = false;
+            OptionBRadioButton.IsChecked = false;
+            OptionCRadioButton.IsChecked = false;
+            OptionDRadioButton.IsChecked = false;
+            selectedAnswer = null;
         }
         else
         {
@@ -30,10 +43,16 @@ public partial class PitanjaPageOdgovoriOdmah: ContentPage
         }
     }
 
-    private void OnOptionClicked(object sender, EventArgs e)
+    private void OnOptionSelected(object sender, CheckedChangedEventArgs e)
     {
-        var button = sender as Button;
-        var selectedAnswer = button.Text;
+        if (e.Value) // If a radio button is checked
+        {
+            var radioButton = sender as RadioButton;
+            selectedAnswer = radioButton.Content.ToString();        }
+    }
+
+    private void OnNextQuestionClicked(object sender, EventArgs e)
+    {
         var correctAnswer = questions[currentQuestionIndex].CorrectAnswer;
 
         if (selectedAnswer == correctAnswer)

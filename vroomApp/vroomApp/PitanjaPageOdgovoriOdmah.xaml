@@ -20,12 +20,13 @@
             </FlexLayout>
         </Frame>
         <ScrollView  Margin="0,80,0,0">
-            <StackLayout Padding="20" Spacing="15">
-                <Label x:Name="QuestionLabel" FontSize="Large" FontFamily="LeagueSpartanBold" TextColor="#052d61"/>
-                <Button x:Name="OptionAButton" Clicked="OnOptionClicked" BackgroundColor="#052d61" CornerRadius="25" FontFamily="LeagueSpartanRegular" FontSize="Medium"/>
-                <Button x:Name="OptionBButton" Clicked="OnOptionClicked"  BackgroundColor="#052d61" CornerRadius="25" FontFamily="LeagueSpartanRegular" FontSize="Medium" />
-                <Button x:Name="OptionCButton" Clicked="OnOptionClicked"  BackgroundColor="#052d61" CornerRadius="25" FontFamily="LeagueSpartanRegular" FontSize="Medium" />
-                <Button x:Name="OptionDButton" Clicked="OnOptionClicked"  BackgroundColor="#052d61" CornerRadius="25" FontFamily="LeagueSpartanRegular" FontSize="Medium" />
+            <StackLayout Padding="20" Spacing="10">
+                <Label x:Name="QuestionLabel" FontSize="Large" FontFamily="LeagueSpartanBold" TextColor="#052d61" />
+                <RadioButton x:Name="OptionARadioButton" GroupName="OptionsGroup" Content="" CheckedChanged="OnOptionSelected" FontFamily="LeagueSpartanRegular" FontSize="Medium" TextColor="#052d61" />
+                <RadioButton x:Name="OptionBRadioButton" GroupName="OptionsGroup" Content="" CheckedChanged="OnOptionSelected" FontFamily="LeagueSpartanRegular" FontSize="Medium" TextColor="#052d61" />
+                <RadioButton x:Name="OptionCRadioButton" GroupName="OptionsGroup" Content="" CheckedChanged="OnOptionSelected" FontFamily="LeagueSpartanRegular" FontSize="Medium" TextColor="#052d61"/>
+                <RadioButton x:Name="OptionDRadioButton" GroupName="OptionsGroup" Content="" CheckedChanged="OnOptionSelected" FontFamily="LeagueSpartanRegular" FontSize="Medium" TextColor="#052d61"/>
+                <Button x:Name="NextButton" Text="DALJE" Clicked="OnNextQuestionClicked" BackgroundColor="#052d61" WidthRequest="100" FontFamily="LeagueSpartanBold" FontSize="Body" CornerRadius="25" Margin="0,0,0,10"></Button>
             </StackLayout>
         </ScrollView>
     </Grid>

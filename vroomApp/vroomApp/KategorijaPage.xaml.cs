@@ -42,10 +42,20 @@ public partial class KategorijaPage : ContentPage
     }
     private async void OnZnakoviTapped(object sender, EventArgs e)
     {
-        await Navigation.PushModalAsync(new ProfilPage());
+        var tappedElement = (Microsoft.Maui.Controls.VisualElement)sender;
+        var odabranaKategorija = tappedElement.BindingContext as Kategorije;
+        if (odabranaKategorija != null)
+        {
+            await Navigation.PushModalAsync(new TeorijaPage(odabranaKategorija));
+        }
     }
     private async void OnRaskrsniceTapped(object sender, EventArgs e)
     {
-        await Navigation.PushModalAsync(new ProfilPage());
+        var tappedElement = (Microsoft.Maui.Controls.VisualElement)sender;
+        var odabranaKategorija = tappedElement.BindingContext as Kategorije;
+        if (odabranaKategorija != null)
+        {
+            await Navigation.PushModalAsync(new TeorijaPage(odabranaKategorija));
+        }
     }
 }
